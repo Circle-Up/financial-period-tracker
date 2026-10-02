@@ -17,6 +17,10 @@ public class History {
     ArrayList<Event> events = new ArrayList<>();
 
     // File creation/validation.
+    // Full disclosure, I had AI help me write fileCheck(), saveEventToFile()
+    // and loadHistoryFile(), I did not know the syntax or the requisite
+    // libraries I would need to make it work although the design of 
+    // the functions is my own as is most all of the code.
     public void fileCheck() {
         try {
             if (!historyFile.exists()) {
